@@ -8,6 +8,9 @@ import org.springframework.web.servlet.ModelAndView;
 
 public class MyInterceptor implements HandlerInterceptor {
 
+	/**
+	 * 执行完控制器后调用，即离开时
+	 */
 	@Override
 	public void afterCompletion(HttpServletRequest arg0,
 			HttpServletResponse arg1, Object arg2, Exception arg3)

@@ -42,7 +42,7 @@
 		</property>
 	</bean>
 
-	<!-- interceptor setting -->
+	<!-- 注册拦截器 -->
 	<mvc:interceptors>
 		<mvc:interceptor>
 			<mvc:mapping path="/mvc/**" />
